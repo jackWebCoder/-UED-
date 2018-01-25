@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>CSS3动画效果列表</title>
+<style type="text/css">
+*{ padding:0; margin:0}
+a{ text-decoration:none; color:#0099cc}
+a:hover{ text-decoration: underline;}
+/** 清除浮动 **/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+h1{ font-size:30px; font-weight:bold; color:#fc6c26; font-family:"Microsoft Yahei"; padding:25px; text-align: center; }
+body{ background:#fff; font-size:12px; padding-bottom:25px}
+li{ list-style:none}
+.wrap{ padding:5px; width:1000px; margin:0 auto }
+h3.title{ font-size:18px; font-weight:bold;font-family:"Microsoft Yahei"; line-height:2; background:#f4f4f4;  padding-left:10px; color:#494442; margin-top:5px;}
+.title_more{ float: right; font-size: 14px; padding: 4px 10px 0 0}
+.ulBox{ /*min-height: 600px;*/  margin-bottom: 20px; }
+#ulBox{  }
+#ulBox2{  }
+
+#ulBox3 li,
+#ulBox4 li{ border:none; border-bottom:1px dashed #ddd;}
+#ulBox3 li:hover,
+#ulBox4 li:hover{ box-shadow: none; margin-top: 0}
+
+.list_block { padding:15px 10px 0;}
+.list_block li{ float:left; display: inline-block; background: #fff; border:1px solid #ddd; padding:5px; margin-right: 21px; margin-bottom: 7px; transition: all .3s; position: relative; overflow: hidden; width: 300px}
+.list_block li .hover-content{ position: absolute; bottom: -15%; left:0; right:0; transition: all .3s; margin:0 10px; font-size: 14px}
+.list_block li:hover{ box-shadow: 0 0  5px #999; margin-top: -3px; cursor: pointer;}
+.list_block li:hover .hover-content{ display: block; bottom: 15px;}
+.list_block li:nth-child(3n){ margin-right: 0}
+.list_block li:nth-child(3n):hover{ margin-right: 0}
+.list_block li img.imgC{ width:300px; height:200px;}
+.list_block li .txt{ font-size: 14px; font-weight: bold; padding: 0 0 5px 0; margin-bottom: 5px; border-bottom: 1px dashed #ddd; color: #0099ff}
+.list_block li .des{ font-size: 12px; color:#838383; line-height: 1.5; height: 39px}
+
+.list_block li .link-left{ float:left; display: block; width: 80px; height: 30px; border: 1px solid #ddd; text-align: center; line-height: 30px; background: #fff}
+.list_block li .link-right{ float:right; display: block; width: 80px; height: 30px; border: 1px solid #1c8600; text-align: center; line-height: 30px; background: #1c8600; color: #fff}
+
+
+</style>
+</head>
+<body>
+	<h1>
+    CSS3动画效果列表
+  </h1>
+  <div class="wrap">
+    <h3 class="title">
+      CSS3动画效果
+    </h3>
+    <div class="ulBox" id="ulBox">
+      <ul class="list_block clearfix">
+        <li>
+          <div class="txt">钱币飘落效果</div>
+          <div class="des">若干个钱币从顶部自由飘落，可更改钱币数量、运动方式等，适用领券、落红包等场景</div>
+          <img src="纸币飘落效果/images/01.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="纸币飘落效果/readme.html">使用方法</a>
+            <a class="link-right" href="纸币飘落效果/index.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">CSS3-半价购大牌-淡出、放大、移动效果</div>
+          <div class="des">易物半价购大牌CSS3动画，包含淡出、放大、移动效果</div>
+          <img src="CSS3-半价购大牌-淡出、放大、移动效果/screen.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="CSS3-半价购大牌-淡出、放大、移动效果/readme.html">使用方法</a>
+            <a class="link-right" href="CSS3-半价购大牌-淡出、放大、移动效果/index.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">CSS3-各类shake效果</div>
+          <div class="des">包含各种shake效果，注意加上前缀class.shake</div>
+          <img src="CSS3-各类shake效果/01.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="CSS3-各类shake效果/readme.html">使用方法</a>
+            <a class="link-right" href="CSS3-各类shake效果/CSS3各类shake效果收集.html">查看演示</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="list_block clearfix">
+        <li>
+          <div class="txt">css3-礼金更疯狂-swiper效果/</div>
+          <div class="des">包含滚动监听效果、点击li定位指定位置、滑动页面tab栏自动追随滚动</div>
+          <img src="css3-礼金更疯狂-swiper效果/01.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="css3-礼金更疯狂-swiper效果//readme.html">使用方法</a>
+            <a class="link-right" href="css3-礼金更疯狂-swiper效果//index.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">css3-animate动画库</div>
+          <div class="des">各类常用animate效果尽在其中，注意修改动画次数,delay时间要自定义</div>
+          <img src="css3-animate动画库/01.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="css3-animate动画库/readme.html">使用方法</a>
+            <a class="link-right" href="css3-animate动画库/index.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">css3-鼠标点击动画效果</div>
+          <div class="des">animate动画库的补充，需要调用js</div>
+          <img src="jQuery_CSS3鼠标点击动画效果/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="jQuery_CSS3鼠标点击动画效果/readme.html">使用方法</a>
+            <a class="link-right" href="jQuery_CSS3鼠标点击动画效果/index.html">查看演示</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="list_block clearfix">
+        <li>
+          <div class="txt">滑动毛玻璃效果+swiper滚动监听效果</div>
+          <div class="des">毛玻璃效果与swiper滚动监听效果整合在一起</div>
+          <img src="滑动毛玻璃效果/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="滑动毛玻璃效果/readme.html">使用方法</a>
+            <a class="link-right" href="滑动毛玻璃效果/index.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">移动端红包雨H5效果</div>
+          <div class="des">主要运用animate效果</div>
+          <img src="红包雨效果/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="红包雨效果/readme.html">使用方法</a>
+            <a class="link-right" href="红包雨效果/index.html">查看演示</a>
+          </div>
+        </li>
+        <li style="display:none;">
+          &nbsp;
+        </li>
+      </ul>
+    </div>
+    
+
+    
+
+
+  </div>
+
+
+
+</body>
+</html>

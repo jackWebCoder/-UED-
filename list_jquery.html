@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>易物UED前端资源库</title>
+<style type="text/css">
+*{ padding:0; margin:0}
+a{ text-decoration:none; color:#0099cc}
+a:hover{ text-decoration: underline;}
+/** 清除浮动 **/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+h1{ font-size:30px; font-weight:bold; color:#fc6c26; font-family:"Microsoft Yahei"; padding:25px; text-align: center; }
+body{ background:#fff; font-size:12px; padding-bottom:25px}
+li{ list-style:none}
+.wrap{ padding:5px; width:1000px; margin:0 auto }
+h3.title{ font-size:18px; font-weight:bold;font-family:"Microsoft Yahei"; line-height:2; background:#f4f4f4; border:1px solid #d7d7d7; padding-left:10px; color:#494442; margin-top:5px;}
+.title_more{ float: right; font-size: 14px; padding: 4px 10px 0 0}
+.ulBox{ /*min-height: 600px;*/ border:1px solid #ddd; border-top: none; margin-bottom: 20px; }
+
+#ulBox3 li,
+#ulBox4 li{ border:none; border-bottom:1px dashed #ddd;}
+#ulBox3 li:hover,
+#ulBox4 li:hover{ box-shadow: none; margin-top: 0}
+
+.list_block { padding:15px 10px 0;}
+.list_block li{ float:left; display: inline-block; background: #fff; border:1px solid #ddd; padding:5px; margin-right: 21px; margin-bottom: 7px; transition: all .3s; position: relative; overflow: hidden; width: 300px}
+.list_block li .hover-content{ position: absolute; bottom: -15%; left:0; right:0; transition: all .3s; margin:0 10px; font-size: 14px}
+.list_block li:hover{ box-shadow: 0 0  5px #999; margin-top: -3px; cursor: pointer;}
+.list_block li:hover .hover-content{ display: block; bottom: 15px;}
+.list_block li:nth-child(3n){ margin-right: 0}
+.list_block li:nth-child(3n):hover{ margin-right: 0}
+.list_block li img.imgC{ width:300px; height:200px;}
+.list_block li .txt{ font-size: 14px; font-weight: bold; padding: 0 0 5px 0; margin-bottom: 5px; border-bottom: 1px dashed #ddd; color: #0099ff}
+.list_block li .des{ font-size: 12px; color:#838383; line-height: 1.5; height: 39px}
+
+.list_block li .link-left{ float:left; display: block; width: 80px; height: 30px; border: 1px solid #ddd; text-align: center; line-height: 30px; background: #fff}
+.list_block li .link-right{ float:right; display: block; width: 80px; height: 30px; border: 1px solid #1c8600; text-align: center; line-height: 30px; background: #1c8600; color: #fff}
+
+
+</style>
+</head>
+<body>
+	<h1>
+    常用Js/jQuery效果列表
+  </h1>
+  <div class="wrap">
+    
+    <h3 class="title">
+      常用Js/jQuery效果
+    </h3>
+    <div class="ulBox" id="ulBox2">
+      <ul class="list_block clearfix">
+        <li>
+          <div class="txt">Top栏毛玻璃效果</div>
+          <div class="des">实用的毛玻璃效果</div>
+          <img src="Top栏毛玻璃效果/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="Top栏毛玻璃效果/readme.html">使用方法</a>
+            <a class="link-right" href="Top栏毛玻璃效果/demo.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">返回顶部、滚动到指定位置</div>
+          <div class="des">点击平滑返回至顶部、A、B、C等位置</div>
+          <img src="返回顶部、滚动到指定位置/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="返回顶部、滚动到指定位置/readme.html">使用方法</a>
+            <a class="link-right" href="返回顶部、滚动到指定位置/滚动监听.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">手指控制div位置（移动端）</div>
+          <div class="des">手指任意滑动，div跟随滑动，需在移动端展示</div>
+          <img src="手指控制div位置（移动端）/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="手指控制div位置（移动端）/readme.html">使用方法</a>
+            <a class="link-right" href="手指控制div位置（移动端）/test.html">查看演示</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="list_block clearfix">
+        <li>
+          <div class="txt">滑动拉动侧边栏并随屏幕滚动</div>
+          <div class="des">手指滑动箭头，即可拉出侧边栏。向右滑动即收回。</div>
+          <img src="滑动拉动侧边栏并随屏幕滚动/images/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="滑动拉动侧边栏并随屏幕滚动/readme.html">使用方法</a>
+            <a class="link-right" href="滑动拉动侧边栏并随屏幕滚动/index_1107.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">微信分享弹窗</div>
+          <div class="des">点击头部菜单栏弹出分享弹窗</div>
+          <img src="微信分享弹窗/images/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="微信分享弹窗/readme.html">使用方法</a>
+            <a class="link-right" href="微信分享弹窗/微信弹窗demo.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">抽奖转盘代码</div>
+          <div class="des">可自定义奖品、概率、奖品个数</div>
+          <img src="Cj_Demo/01.jpg" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="Cj_Demo/readme.html">使用方法</a>
+            <a class="link-right" href="Cj_Demo/index.html">查看演示</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="list_block clearfix">
+        <li>
+          <div class="txt">css3实现循环执行动画，且动画每次都有延迟</div>
+          <div class="des">易物“1.8折购年货”新年大礼动画，循环执行动画，且动画每次都有延迟</div>
+          <img src="滑动拉动侧边栏并随屏幕滚动/images/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="滑动拉动侧边栏并随屏幕滚动/readme.html">使用方法</a>
+            <a class="link-right" href="滑动拉动侧边栏并随屏幕滚动/index_1107.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">jQuery手机端电影票选座代码</div>
+          <div class="des">添加日期插件、可自定义添加、删除、价格自动计算</div>
+          <img src="jQuery手机端电影票选座代码/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="jQuery手机端电影票选座代码/readme.html">使用方法</a>
+            <a class="link-right" href="jQuery手机端电影票选座代码/demo.html">查看演示</a>
+          </div>
+        </li>
+        <li>
+          <div class="txt">jQuery带标题图标轮播切换代码</div>
+          <div class="des">自动滑动、手指能左右滑动，点击按钮滑动</div>
+          <img src="jQuery带标题图标轮播切换代码/screenshot.png" alt="" class="imgC">
+          <div class="hover-content clearfix">
+            <a class="link-left" href="jQuery带标题图标轮播切换代码/readme.html">使用方法</a>
+            <a class="link-right" href="jQuery带标题图标轮播切换代码/demo.html">查看演示</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
